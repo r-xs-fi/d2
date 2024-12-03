@@ -1,0 +1,15 @@
+{
+	"usage_examples": [
+		{
+			"title": "Render D2 diagram to SVG",
+			"cmd": "example.d2 example.svg",
+			"example_output": "success: successfully compiled example.d2 to example.svg in 36.350921ms",
+			"docker_opts": ["--volume=$(pwd):/workspace"]
+		}
+	],
+	"why_not_use_upstream_image": "[Upstream](https://github.com/terrastruct/d2/blob/50d048f0a86f5076196e7906026ff20fefaf692d/ci/release/docker/Dockerfile) is ~ 700 MB, is weird and its build process is weird.",
+	"not_building_for_platforms_because": {
+		"linux/arm/v7": "Prebuilt image not available.",
+		"linux/riscv64": "Prebuilt image not available."
+	}
+}

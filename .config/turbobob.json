@@ -1,0 +1,12 @@
+{
+	"for_description_of_this_file_see": "https://github.com/function61/turbobob",
+	"version_major": 1,
+	"project_name": "D2",
+	"meta": {
+		"description": "Container image for D2 - a modern diagram scripting language that turns text to diagrams.",
+		"website": "https://d2lang.com/"
+	},
+	"docker_images": [
+		{ "image": "ghcr.io/r-xs-fi/d2", "platforms": ["linux/amd64", "linux/arm64"], "tag_latest": true }
+	]
+}
