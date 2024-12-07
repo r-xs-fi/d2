@@ -7,6 +7,7 @@
 			"docker_opts": ["--volume=$(pwd):/workspace"]
 		}
 	],
+	"supply_chain_descriptor": "prebuilt-binaries:https://github.com/terrastruct/d2",
 	"why_not_use_upstream_image": "[Upstream](https://github.com/terrastruct/d2/blob/50d048f0a86f5076196e7906026ff20fefaf692d/ci/release/docker/Dockerfile) is ~ 700 MB, is weird and its build process is weird.",
 	"not_building_for_platforms_because": {
 		"linux/arm/v7": "Prebuilt image not available.",
